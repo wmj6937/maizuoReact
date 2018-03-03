@@ -1,7 +1,6 @@
 import React,{ Component } from 'react';
 import { Carousel } from 'antd-mobile';
 import axios from 'axios';
-import '../../style/swiper.css';
 
 export default class Swiper extends Component {
   state = {

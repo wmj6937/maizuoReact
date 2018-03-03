@@ -13,9 +13,10 @@ class DUpdateTitleUI extends Component{
 const mapDispatchToProps = (dispatch,props)=>{
     return {
         detailsAddToDo : (function(){
+            var tts = localStorage.getItem("titles") ? localStorage.getItem("titles") : "卖座电影";
             dispatch({
                 type : "DETAILS_ADD_TO_DO",
-                payload : localStorage.getItem("titles")
+                payload : tts
             })
         })()
     }
