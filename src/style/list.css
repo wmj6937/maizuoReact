@@ -1,0 +1,34 @@
+.warp_list{
+    padding: 0 0.1rem;
+    background: #fff;
+    overflow-y:auto;
+    flex: 1;
+}
+.list div ul li{
+    width: 100%;
+    display: flex;
+    padding:0.2rem 0;
+    height: 1.24rem;
+    border-bottom:1px dashed #eee; 
+}
+.list div ul li img{
+    width:0.6rem;
+}
+.movie_details{
+    padding-left:0.2rem; 
+    width:75%;
+}
+.movie_details h1{
+    font-size: 16px;
+    line-height: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.movie_details p{
+    height: 24px;
+    font-size: 12px;
+    line-height: 24px;
+}
+.movie_details p i{
+    padding-right: 0.2rem;
+}

@@ -1,0 +1,22 @@
+
+@font-face {font-family: "iconfont";
+  src:url('iconfont.woff')format('woff'),
+  url('iconfont.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wode:before { content: "\e616"; }
+
+.icon-you:before { content: "\e610"; }
+
+.icon-xia:before { content: "\e687"; }
+
+.icon-san:before { content: "\e643"; }
+

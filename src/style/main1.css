@@ -1,0 +1,48 @@
+article{
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding:0 0.18rem;
+}
+article dl dd{
+	padding-left: 0.12rem;
+	background: #f9f9f9;
+	display: flex;
+}
+article dl dd #left{
+	flex: 1;
+}
+article dl dd #left h4{
+	font-size: 14px;
+	color: #373737;
+	line-height: 0.27rem;
+	padding-top:0.17rem;
+}
+article dl dd p{
+	color: #999999;
+	font-size: 12px;
+	line-height: 0.2rem;
+	padding-bottom:0.10rem;
+}
+article dl dd .right{
+	width:0.4rem;
+	font-size: 20px;
+	color: #ff815e;
+	height: 100%;
+}
+article dl dd .right span{
+	line-height: 0.74rem;
+}
+article h3{
+	width:1.6rem;
+	border:1px solid #a9a9a9;
+	height: 30px;
+	border-radius: 0.15rem;
+	color: #666666;
+	font-size: 16px;
+	margin: 0.18rem 0 0.3rem 0;
+	text-align: center;
+	line-height:0.3rem;
+	cursor: pointer;
+}

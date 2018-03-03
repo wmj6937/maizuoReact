@@ -1,0 +1,15 @@
+.homePage{
+    width:100%;
+    flex: 1;
+    overflow-y: auto;
+    background: #ebebeb;
+  }
+  .homePage dl{
+      margin-top:0.18rem;
+      flex: 1;
+      border:1px solid #d3d3d1;
+      cursor: pointer;
+  }
+  .homePage dl dt img{
+      width:100%;
+  }

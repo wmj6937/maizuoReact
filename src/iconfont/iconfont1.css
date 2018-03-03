@@ -1,0 +1,32 @@
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont1.woff')format('woff'), /* IE6-IE8 */
+  url('iconfont1.ttf') format('truetype');
+}
+
+.iconfont1{
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-iconphone:before { content: "\e634"; }
+
+.icon-yinliao01:before { content: "\e72b"; }
+
+.icon-aui-icon-location:before { content: "\e617"; }
+
+.icon-iconchair01:before { content: "\e615"; }
+
+.icon-zongxian_bus15:before { content: "\e621"; }
+
+.icon-yanjing:before { content: "\e673"; }
+
+.icon-parking:before { content: "\e836"; }
+
+.icon-icon_gift:before { content: "\e693"; }
+
+.icon-icon_ticket:before { content: "\e6b1"; }
+

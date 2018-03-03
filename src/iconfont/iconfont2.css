@@ -1,0 +1,19 @@
+
+@font-face {font-family: "iconfont";
+  src:  /* IE6-IE8 */
+  url('iconfont2.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont2.woff') format('woff'); /* iOS 4.1- */
+}
+
+.iconfont2 {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mine-red:before { content: "\e65e"; }
+
+.icon-dui:before { content: "\e613"; }
+

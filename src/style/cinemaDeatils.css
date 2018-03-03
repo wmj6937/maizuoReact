@@ -1,0 +1,90 @@
+.cinemaDeatils{
+    width:100%;
+    flex: 1;
+    overflow-y:auto;
+}
+.cinemaDeatils h3 img{
+    width:100%;
+}
+.cinemaDeatils dl{
+    background: #fff;
+    padding: 0.25rem 0.17rem 0 0.25rem;
+    height: 1.15rem;
+    display: flex;
+}
+.cinemaDeatils dl dt{
+    width:15%;
+    font-size: 30px!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cinemaDeatils dl dd{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px dashed #eee;
+}
+.cinemaDeatils dl dd h4{
+    display: flex;
+    justify-content: space-between;
+    height: 0.4rem;
+    align-items: center;
+    font-size: 14px;
+}
+.cinemaDeatils dl dd h4 span{
+    font-size: 14px;
+}
+.cinemaDeatils dl dd h4 button{
+    height: 0.34rem;
+    background: #fe8233;
+    width: 0.94rem;
+    border-radius: 0.17rem;
+    border:0;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+.cinemaDeatils dl dd p{
+    font-size: 12px;
+    line-height: 36px;
+}
+.cinemaDeatils dl:nth-last-of-type(1) dd{
+    border: none;
+}
+.tips{
+    background: #fff;
+    margin-top: 0.2rem;
+    padding: 0 0.17rem; 
+}
+.tips .tipsH{
+    font-size: 13px;
+    height: 1rem;
+    line-height: 26px;
+    padding:0.1rem 0 0.5rem 0; 
+}
+.tips .am-tabs-tab-bar-wrap{
+    height: 0.8rem;
+}
+.am-tabs-default-bar-tab{
+    height:100%;
+}
+.cBadge{
+    display: flex;
+    flex-direction: column;
+}
+.cBadge span{
+    width: 0.4rem;
+    height: 0.4rem;
+    border:1px solid #cdcdcd;
+    border-radius: 0.2rem;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 30px!important;
+}
+.cBadge i{
+    text-align: center;
+    padding-top:0.1rem; 
+    color: #999999;
+}

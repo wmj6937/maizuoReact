@@ -1,0 +1,182 @@
+.choose{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.choose .chooseTop{
+    margin:0.1rem 0;
+    padding: 0.12rem;
+    background: #fff;
+    height: 0.66rem;
+    display: flex;
+}
+.choose .chooseTop div{
+    flex: 1;
+}
+.choose .chooseTop div p{
+    line-height: 0.22rem;
+    height: 0.22rem;
+    overflow: hidden;
+}
+.choose .chooseTop div p:nth-child(1){
+    font-size: 16px;
+}
+.choose .chooseTop div p:nth-child(2){
+    font-size: 14px;
+    color: #6d6d6d;
+}
+.choose .chooseTop div p:nth-child(2) span{
+    padding-right:0.05rem; 
+}
+.choose .chooseTop h4{
+    width:1rem;
+    height: 0.36rem;
+    margin: 0.04rem;
+    border: 1px solid #ccc;
+    border-radius: 0.18rem;
+    line-height: 0.36rem;
+    text-align: center;
+    color: #36bfd1;
+}
+.choose .chooseSeat{
+    background: #fff;
+    color: #6d6d6d;
+    display: flex;
+    overflow:auto;
+    flex: 1;
+}
+.choose .chooseSeat .warpSeat{
+    flex: 1;
+    padding: 0.2rem;
+    transition: 2s;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.choose .chooseSeat .sub-title{
+    line-height: 0.24rem;
+    border: 1px solid #ccc;
+    border-radius: 0.12rem;
+    font-size: 12px;
+    text-align: center;
+    margin-left:0.3rem; 
+}
+.choose .chooseSeat .seat_warp{
+    margin-top:0.2rem; 
+}
+.choose .chooseSeat .seat_warp .seatUl{
+    height: 0.2rem;
+    display: flex;
+}
+.choose .chooseSeat .seat_warp .seatUl h3{
+    line-height: 0.2rem;
+    text-align: center;
+    font-size: 14px;
+}
+.choose .chooseSeat .seat_warp .seatUl h3 span{
+    display: block;
+    width: 0.3rem;
+}
+.choose .chooseSeat .seat_warp .seatUl li{
+    width:0.2rem;
+    height: 0.2rem;
+}
+.choose .chooseSeat .seat_warp .seatUl li span{
+    border: 1px solid #ccc;
+    display: block;
+    width: 0.14rem;
+    height: 0.14rem;
+    margin: 0.03rem;
+    line-height: 0.14rem;
+    border-radius: 3px;
+    font-size: 12px!important;
+    color: #fff;
+}
+.choose .chooseSeat .seat_warp .seatUl li i{
+    font-size: 14px!important;
+    margin: 0.03rem;
+    display: block;
+    background:rgb(238, 60, 60);
+    color:rgba(255, 255, 255, 0.5);
+    text-align: center; 
+    line-height: 0.14rem;
+    border-radius: 3px;
+    width: 0.14rem;
+    height: 0.14rem;
+}
+.choose .seatTips{
+    width: 100%;
+    height: 0.5rem;
+    position: absolute;
+    top:-0.5rem;
+    left: 0;
+    background: orange;
+    font-size: 12px;
+    line-height: 0.5rem;
+    padding-left:0.3rem;
+    color: #fff; 
+    transition: 1s;
+}
+.choose .priceFooter{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    background: #fff;
+}
+.choose .priceFooter ul{
+    padding: 0.08rem 0;
+    line-height: 0.24rem;
+    border-top:1px solid #eee;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    display: flex;
+    padding-left:0.1rem; 
+}
+.choose .priceFooter ul li{
+    margin:0 2%;
+    width:18%;
+    height: 0.24rem;
+    font-size: 12px;
+    color: #fff;
+    background: #36bfd1;
+    border-radius: 3px;
+    text-align: center;
+}
+.choose .priceFooter div{
+    padding-left:0.1rem; 
+    width: 100%;
+    display: flex;
+}
+.choose .priceFooter div p{
+    flex: 1;
+    padding:0 2%;
+}
+.choose .priceFooter div p span{
+    display: block;
+    color: #fe8233;
+    font-size: 16px;
+    line-height: 0.24rem;
+    padding-top: 0.04rem;
+}
+.choose .priceFooter div p i{
+    display: block;
+    line-height: 0.18rem;
+    font-size: 12px;
+    color: #ccc;
+}
+.choose .priceFooter div button{
+    background: #fe8233;
+    text-align: center;
+    line-height: 0.5rem;
+    height: 0.5rem;
+    width:1rem;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+}

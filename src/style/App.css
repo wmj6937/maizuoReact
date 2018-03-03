@@ -1,0 +1,10 @@
+.App{
+    display: flex;
+    flex-direction:column;
+    overflow: hidden;
+    height: 100%;
+}
+#root{
+    overflow: hidden;
+    height: 100%;
+}

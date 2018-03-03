@@ -1,0 +1,109 @@
+.moveTimes{
+    flex: 1;
+    overflow-y: auto;
+    width:100%;
+}
+.warpTop{
+    background: #38403e;
+    overflow: hidden;
+}
+.warpTop .am-tabs-default-bar-tab::after{
+    background-color: #38403e!important;
+}
+.warpTop .am-tabs-default-bar-prevpage,.warpTop .am-tabs-default-bar-nextpage{
+    position: static;
+}
+.moveImg img{
+    height:0.72rem;
+    width: 0.52rem;
+    border: 1px solid #fff;
+    opacity: 0.5;
+}
+.warpTop .am-tabs-default-bar-tab:nth-of-type(1) img{
+    opacity: 1;
+}
+.warpTop .am-tabs-default-bar-underline{
+    border: none;
+}
+.moveBottom{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
+.moveDate{
+    width: 100%;
+}
+.moveDate .am-whitespace,.moveDate .am-whitespace-md{
+    height: 0;
+}
+.moveDate .am-tabs-default-bar-tab{
+    line-height: 40px;
+    height: 40px;
+    padding:0;
+    font-size: 10px;
+}
+.moveDate .dateWidth{
+    width: 1rem;
+    text-align: center;
+    display: inline-block;
+}
+.moveDate .am-tabs-default-bar-tab::after{
+    background-color: #e9681f!important;
+}
+.moveDate .am-tabs-default-bar-prevpage,.moveDate .am-tabs-default-bar-nextpage{
+    position: static;
+}
+.moveDate .am-tabs-default-bar-underline{
+    border: 2px solid #e9681f;
+    z-index: 100;
+}
+.dateList{
+    background: #fff;
+    overflow: hidden;
+}
+.dateList div{
+    margin: 0.1rem 0.2rem 0 0.2rem;
+    border-bottom: 1px dashed #eee; 
+    height: 0.6rem;
+}
+.dateList div dl{
+    width: 100%;
+    height: 100%;
+}
+.dateList div dl dt{
+    line-height: 24px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.dateList div dl dt span:nth-child(2){
+    color: #f67222;
+}
+.dateList div dl dd{
+    font-size: 12px;
+    height: 24px;
+    display: flex;
+}
+.dateList div dl dd i{
+    width: 0.16rem;
+    color: #c6c6c6;
+    text-align: center;
+    font-size: 16px;
+}
+.dateList div dl dd p{
+    display: flex;
+    flex: 1;
+    line-height: 24px;
+    justify-content: space-between;
+}
+.dateList div dl dd p span:nth-child(1){
+    color: #727272;
+}
+.dateList div dl dd p span:nth-child(2){
+    color: #c6c6c6;
+    text-decoration: line-through;
+}
+.dateList .am-tabs-default-bar-tab,.dateList .am-tabs-default-bar-tab-active{
+    width: 33.33%;
+}
